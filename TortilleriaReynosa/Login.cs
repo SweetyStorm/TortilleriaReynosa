@@ -83,7 +83,7 @@ namespace TortilleriaReynosa
                         if (Role == "Administrador")
                         {
                             //MessageBox.Show("Administrador Autorizado.");
-                            MenuAdministrador nextForm = new MenuAdministrador();
+                            MenuAdministrador nextForm = new MenuAdministrador(tbxLoginNombre.Text);
                             this.Hide();
                             nextForm.ShowDialog();
                             this.Close();

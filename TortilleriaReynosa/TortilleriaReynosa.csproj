@@ -113,6 +113,54 @@
     <Compile Include="MenuAdministrador.Designer.cs">
       <DependentUpon>MenuAdministrador.cs</DependentUpon>
     </Compile>
+    <Compile Include="MenuAdministradorInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAdministradorInventario.Designer.cs">
+      <DependentUpon>MenuAdministradorInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuAdministradorMateriaPrima.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAdministradorMateriaPrima.Designer.cs">
+      <DependentUpon>MenuAdministradorMateriaPrima.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuAdministradorProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAdministradorProducto.Designer.cs">
+      <DependentUpon>MenuAdministradorProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuAdministradorProovedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAdministradorProovedores.Designer.cs">
+      <DependentUpon>MenuAdministradorProovedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuAdministradorSucursal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAdministradorSucursal.Designer.cs">
+      <DependentUpon>MenuAdministradorSucursal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuAdministradorSurtido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAdministradorSurtido.Designer.cs">
+      <DependentUpon>MenuAdministradorSurtido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuAdministradorTiendas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAdministradorTiendas.Designer.cs">
+      <DependentUpon>MenuAdministradorTiendas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuAdministradorUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MenuAdministradorUsuarios.Designer.cs">
+      <DependentUpon>MenuAdministradorUsuarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuEmpleado.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +174,30 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MenuAdministrador.resx">
       <DependentUpon>MenuAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuAdministradorInventario.resx">
+      <DependentUpon>MenuAdministradorInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuAdministradorMateriaPrima.resx">
+      <DependentUpon>MenuAdministradorMateriaPrima.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuAdministradorProducto.resx">
+      <DependentUpon>MenuAdministradorProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuAdministradorProovedores.resx">
+      <DependentUpon>MenuAdministradorProovedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuAdministradorSucursal.resx">
+      <DependentUpon>MenuAdministradorSucursal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuAdministradorSurtido.resx">
+      <DependentUpon>MenuAdministradorSurtido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuAdministradorTiendas.resx">
+      <DependentUpon>MenuAdministradorTiendas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuAdministradorUsuarios.resx">
+      <DependentUpon>MenuAdministradorUsuarios.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuEmpleado.resx">
       <DependentUpon>MenuEmpleado.cs</DependentUpon>
@@ -171,6 +243,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\submenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sucursal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\materiaPrima.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\producto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proovedores.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tiendas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\surtido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuarios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
