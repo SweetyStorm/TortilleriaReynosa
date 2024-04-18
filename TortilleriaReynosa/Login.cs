@@ -67,8 +67,8 @@ namespace TortilleriaReynosa
 
         void LoginValidation()
         {
-            string Username = tbxLoginNombre.Text;
-            string Password = tbxLoginClave.Text;
+            string Username = tbxLoginNombre.Text.TrimEnd();
+            string Password = tbxLoginClave.Text.Trim();
             string Role = cbxLoginRol.SelectedItem.ToString();
 
             try
