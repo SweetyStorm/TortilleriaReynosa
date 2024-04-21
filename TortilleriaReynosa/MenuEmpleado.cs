@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TortilleriaReynosa
 {
-    public partial class Form1 : Form
+    public partial class MenuEmpleado : Form
     {
-        public Form1()
+        public MenuEmpleado()
         {
             InitializeComponent();
         }
