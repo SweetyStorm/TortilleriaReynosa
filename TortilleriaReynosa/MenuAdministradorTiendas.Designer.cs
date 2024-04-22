@@ -46,47 +46,47 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Roboto", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(75, 15);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(127, 33);
+            this.label1.Size = new System.Drawing.Size(140, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "TIENDAS";
             // 
             // tbxTiendasNombre
             // 
-            this.tbxTiendasNombre.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbxTiendasNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbxTiendasNombre.Location = new System.Drawing.Point(24, 150);
             this.tbxTiendasNombre.Name = "tbxTiendasNombre";
-            this.tbxTiendasNombre.Size = new System.Drawing.Size(221, 27);
+            this.tbxTiendasNombre.Size = new System.Drawing.Size(221, 26);
             this.tbxTiendasNombre.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Roboto Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(20, 128);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 19);
+            this.label2.Size = new System.Drawing.Size(71, 20);
             this.label2.TabIndex = 2;
             this.label2.Text = "Nombre";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Roboto Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(20, 185);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(81, 19);
+            this.label3.Size = new System.Drawing.Size(79, 20);
             this.label3.TabIndex = 4;
             this.label3.Text = "Teléfono";
             // 
             // tbxTiendasTelefono
             // 
-            this.tbxTiendasTelefono.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbxTiendasTelefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbxTiendasTelefono.Location = new System.Drawing.Point(24, 207);
             this.tbxTiendasTelefono.Name = "tbxTiendasTelefono";
-            this.tbxTiendasTelefono.Size = new System.Drawing.Size(221, 27);
+            this.tbxTiendasTelefono.Size = new System.Drawing.Size(221, 26);
             this.tbxTiendasTelefono.TabIndex = 3;
             // 
             // dgvTiendas
@@ -100,8 +100,8 @@
             // 
             // btnTiendasCreate
             // 
-            this.btnTiendasCreate.Font = new System.Drawing.Font("Roboto", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTiendasCreate.Location = new System.Drawing.Point(32, 274);
+            this.btnTiendasCreate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTiendasCreate.Location = new System.Drawing.Point(69, 267);
             this.btnTiendasCreate.Name = "btnTiendasCreate";
             this.btnTiendasCreate.Size = new System.Drawing.Size(94, 47);
             this.btnTiendasCreate.TabIndex = 6;
@@ -111,53 +111,56 @@
             // 
             // btnTiendasUpdate
             // 
-            this.btnTiendasUpdate.Font = new System.Drawing.Font("Roboto", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTiendasUpdate.Location = new System.Drawing.Point(132, 274);
+            this.btnTiendasUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTiendasUpdate.Location = new System.Drawing.Point(392, 13);
             this.btnTiendasUpdate.Name = "btnTiendasUpdate";
             this.btnTiendasUpdate.Size = new System.Drawing.Size(94, 47);
             this.btnTiendasUpdate.TabIndex = 7;
             this.btnTiendasUpdate.Text = "Modificar";
             this.btnTiendasUpdate.UseVisualStyleBackColor = true;
+            this.btnTiendasUpdate.Visible = false;
             this.btnTiendasUpdate.Click += new System.EventHandler(this.btnTiendasUpdate_Click);
             // 
             // btnTiendasDelete
             // 
-            this.btnTiendasDelete.Font = new System.Drawing.Font("Roboto", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTiendasDelete.Location = new System.Drawing.Point(32, 341);
+            this.btnTiendasDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTiendasDelete.Location = new System.Drawing.Point(492, 13);
             this.btnTiendasDelete.Name = "btnTiendasDelete";
             this.btnTiendasDelete.Size = new System.Drawing.Size(94, 47);
             this.btnTiendasDelete.TabIndex = 8;
             this.btnTiendasDelete.Text = "Eliminar";
             this.btnTiendasDelete.UseVisualStyleBackColor = true;
+            this.btnTiendasDelete.Visible = false;
             this.btnTiendasDelete.Click += new System.EventHandler(this.btnTiendasDelete_Click);
             // 
             // btnTiendasRead
             // 
-            this.btnTiendasRead.Font = new System.Drawing.Font("Roboto", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTiendasRead.Location = new System.Drawing.Point(132, 341);
+            this.btnTiendasRead.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTiendasRead.Location = new System.Drawing.Point(592, 13);
             this.btnTiendasRead.Name = "btnTiendasRead";
             this.btnTiendasRead.Size = new System.Drawing.Size(94, 47);
             this.btnTiendasRead.TabIndex = 9;
             this.btnTiendasRead.Text = "Refrescar";
             this.btnTiendasRead.UseVisualStyleBackColor = true;
+            this.btnTiendasRead.Visible = false;
             this.btnTiendasRead.Click += new System.EventHandler(this.btnTiendasRead_Click);
             // 
             // ID
             // 
             this.ID.AutoSize = true;
-            this.ID.Font = new System.Drawing.Font("Roboto Medium", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ID.Location = new System.Drawing.Point(20, 74);
             this.ID.Name = "ID";
-            this.ID.Size = new System.Drawing.Size(26, 19);
+            this.ID.Size = new System.Drawing.Size(28, 20);
             this.ID.TabIndex = 11;
             this.ID.Text = "ID";
             // 
             // tbxTiendasId
             // 
-            this.tbxTiendasId.Font = new System.Drawing.Font("Roboto", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbxTiendasId.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbxTiendasId.Location = new System.Drawing.Point(24, 96);
             this.tbxTiendasId.Name = "tbxTiendasId";
-            this.tbxTiendasId.Size = new System.Drawing.Size(77, 27);
+            this.tbxTiendasId.Size = new System.Drawing.Size(77, 26);
             this.tbxTiendasId.TabIndex = 10;
             // 
             // MenuAdministradorTiendas
@@ -180,6 +183,7 @@
             this.Controls.Add(this.label1);
             this.Name = "MenuAdministradorTiendas";
             this.Text = "MenuAdministradorTiendas";
+            this.Load += new System.EventHandler(this.MenuAdministradorTiendas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvTiendas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

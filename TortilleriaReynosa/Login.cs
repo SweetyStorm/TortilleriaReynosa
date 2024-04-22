@@ -157,7 +157,12 @@ namespace TortilleriaReynosa
 
         private void btnLoginIngresar_Click(object sender, EventArgs e)
         {
-            LoginValidation();
+           // LoginValidation();
+            //MessageBox.Show("Administrador Autorizado.");
+            MenuAdministrador nextForm = new MenuAdministrador(tbxLoginNombre.Text);
+            this.Hide();
+            nextForm.ShowDialog();
+            this.Close();
         }
 
         private void CbxLoginRol_Click(object sender, EventArgs e)

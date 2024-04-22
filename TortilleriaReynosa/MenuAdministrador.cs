@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
+
+
 
 namespace TortilleriaReynosa
 {
@@ -112,19 +116,26 @@ namespace TortilleriaReynosa
             menu.WindowState = FormWindowState.Maximized;
         }
 
+       
+
         private void btnAdminTiendas_Click(object sender, EventArgs e)
         {
-            if (VentanaActiva != null)
+            PnlTiendaCRUD.Visible = true;
+
+          /*  if (VentanaActiva != null)
             {
                 VentanaActiva.Dispose();
             }
+
+
+
             MenuAdministradorTiendas menu = new MenuAdministradorTiendas();
             VentanaActiva = menu;
             menu.FormBorderStyle = FormBorderStyle.None;
             menu.TopLevel = false;
             menu.Visible = true;
             pnlAdminContenido.Controls.Add(menu);
-            menu.WindowState = FormWindowState.Maximized;
+            menu.WindowState = FormWindowState.Maximized;*/
         }
 
         private void btnSurtido_Click(object sender, EventArgs e)
@@ -171,6 +182,71 @@ namespace TortilleriaReynosa
             {
                 return;
             }
+        }
+
+        private void flpAdminMenu_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel11_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void BtnTiendaAñadir_Click(object sender, EventArgs e)
+        {
+            if (VentanaActiva != null)
+            {
+                VentanaActiva.Dispose();
+            }
+
+
+
+            MenuAdministradorTiendas menu = new MenuAdministradorTiendas();
+            VentanaActiva = menu;
+            menu.FormBorderStyle = FormBorderStyle.None;
+            menu.TopLevel = false;
+            menu.Visible = true;
+            pnlAdminContenido.Controls.Add(menu);
+            menu.WindowState = FormWindowState.Maximized;
+            
+        }
+
+        private void BtnElminarTienda_Click(object sender, EventArgs e)
+        {
+            if(VentanaActiva != null)
+            {
+                VentanaActiva.Dispose();
+            }
+
+
+
+            VentanaEliminarTienda menu = new VentanaEliminarTienda();
+            VentanaActiva = menu;
+            menu.FormBorderStyle = FormBorderStyle.None;
+            menu.TopLevel = false;
+            menu.Visible = true;
+            pnlAdminContenido.Controls.Add(menu);
+            menu.WindowState = FormWindowState.Maximized;
+        }
+
+        private void BtnModificar_Click(object sender, EventArgs e)
+        {
+            if(VentanaActiva != null)
+            {
+                VentanaActiva.Dispose();
+            }
+
+
+
+            ModificarDatosTienda menu = new ModificarDatosTienda();
+            VentanaActiva = menu;
+            menu.FormBorderStyle = FormBorderStyle.None;
+            menu.TopLevel = false;
+            menu.Visible = true;
+            pnlAdminContenido.Controls.Add(menu);
+            menu.WindowState = FormWindowState.Maximized;
         }
     }
 }
